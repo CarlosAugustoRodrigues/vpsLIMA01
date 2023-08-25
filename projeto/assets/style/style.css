@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #673AB7;
+    width: 100vw;
+    height: 8vh;
+}
+header div{
+    display: flex;
+    color: #FFFFFF;
+}
+header h4{
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.travel{
+    color: white;
+    margin-right: 3px;
+}
+.world{
+    color: #FFC107;
+    margin-left: 3px;
+}
+
+.banner{
+    display: flex;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position-y: -50vh;
+    width: 100vw;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+.painelpesq{
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+    height: 25vh;
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 25px;
+}
+.painelpesq h2{
+    font-size: 20px;
+    color: black;
+    margin-top: 30px;
+}
+.painelpesq input{
+    margin-top: 30px;
+    border-radius: 50px;
+    width: 25vw;
+    height: 3vh;
+}
+
+.painel{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100vw;
+    height: 60vh;
+}
+.painel img{
+    width: 300px;
+    height: 400px;
+    border-radius: 100px 0px 100px 0px;
+    border: 3px solid #FFC107;
+}
+.painel h2{
+    color: #FFFFFF;
+    margin-top: 7vh;
+    margin-left: 3vw;
+}
